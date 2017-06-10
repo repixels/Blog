@@ -6547,19 +6547,15 @@ h1, h2, h3, h4 {
 .header {
   position: relative;
   z-index: 100;
-  background-color: #0070cd;
-  padding-top: 14px;
-  padding-bottom: 14px;
-  min-width: 60px;
-}
+  background: #ffffff; }
   .header .socials {
     margin-left: 4px; }
   .header .logo-img img {
     max-width: 200px;
     height: auto; }
   .header .top-bar {
-  //  height: 125px;
-  //  padding: 41px 0 40px;
+    height: 125px;
+    padding: 41px 0 40px;
     background: transparent; }
   .header .top-bar .name h1 a {
     float: left;
@@ -6702,6 +6698,7 @@ h1, h2, h3, h4 {
 
     .header .top-bar .toggle-topbar.menu-icon a {
       display: block;
+      color: #7b7b7b;
       padding: 0 10px;
       font-size: 20px; }
 
@@ -7137,15 +7134,11 @@ body {
 /*  Button Tiny  */
 .button.tiny {
   border-width: 1px; }
-.button.custom{ 
-    color: #7b7b7b;
-  border-color: #7b7b7b;
-  background: #ffffff; 
-}
+
 /*  Button Grey  */
 .button.grey {
-  color: #ef0f0f;
-  border-color: #ef0f0f;
+  color: #7b7b7b;
+  border-color: #7b7b7b;
   background: #ffffff; }
 
 .button.grey:hover {
@@ -7658,17 +7651,15 @@ html[xmlns] .flexslider .slides {
 \* ------------------------------------------------------------ */
 .post {
   position: relative;
-    background: #fff;
-    padding: 25px 30px!important;
-    border-radius: 10px!important;
-    margin-bottom: 15px;
-}
+  background: #ffffff;
+  padding: 55px 0 41px;
+  margin-bottom: 40px; }
 
 .post-head {
   text-align: center; }
 
 .post-date {
-  color: #808184;
+  color: #7b7b7b;
   text-transform: uppercase;
   font-size: 13px;
   margin-bottom: 13px; }
@@ -7680,7 +7671,7 @@ html[xmlns] .flexslider .slides {
   margin-bottom: 19px; }
 
 .post-title a {
-  color: #808184; }
+  color: #222222; }
 
 .post-title a:hover {
   color: #117dbf; }
