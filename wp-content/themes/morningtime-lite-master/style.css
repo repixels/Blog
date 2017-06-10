@@ -94,7 +94,7 @@ body {
   background: #fff;
   color: #222;
   cursor: auto;
-  font-family: 'Helvetica', "Helvetica Neue", Roboto, Arial, sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-style: normal;
   font-weight: normal;
   line-height: 1.5;
@@ -1162,7 +1162,7 @@ select {
       background: #EFEFEF;
       color: #222222;
       display: block;
-      font-family: 'Helvetica', "Helvetica Neue", Roboto, Arial, sans-serif;
+      font-family: 'Source Sans Pro', sans-serif;
       font-size: 1rem;
       padding: 1rem; }
       .accordion .accordion-navigation > a:hover, .accordion dd > a:hover {
@@ -1595,7 +1595,7 @@ button, .button {
   border-style: solid;
   border-width: 0;
   cursor: pointer;
-  font-family: 'Helvetica', "Helvetica Neue", Roboto, Arial, sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: normal;
   line-height: normal;
   margin: 0 0 1.25rem;
@@ -3356,7 +3356,7 @@ label.error {
   color: #222222;
   border-style: solid;
   border-width: 1px;
-  font-family: "Consolas", "Menlo", "Courier", monospace;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: inherit;
   margin: 0;
   padding: 0.125rem 0.25rem 0;
@@ -3364,7 +3364,7 @@ label.error {
 
 .label {
   display: inline-block;
-  font-family: 'Helvetica', "Helvetica Neue", Roboto, Arial, sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: normal;
   line-height: 1;
   margin-bottom: auto;
@@ -3746,7 +3746,7 @@ ul.pagination {
   .pricing-table .title {
     background-color: #333333;
     color: #EEEEEE;
-    font-family: 'Helvetica', "Helvetica Neue", Roboto, Arial, sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 1rem;
     font-weight: normal;
     padding: 0.9375rem 1.25rem;
@@ -3754,7 +3754,7 @@ ul.pagination {
   .pricing-table .price {
     background-color: #F6F6F6;
     color: #333333;
-    font-family: 'Helvetica', "Helvetica Neue", Roboto, Arial, sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 2rem;
     font-weight: normal;
     padding: 0.9375rem 1.25rem;
@@ -4037,7 +4037,7 @@ ul.pagination {
 
 .side-nav {
   display: block;
-  font-family: 'Helvetica', "Helvetica Neue", Roboto, Arial, sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   list-style-position: outside;
   list-style-type: none;
   margin: 0;
@@ -4058,7 +4058,7 @@ ul.pagination {
         color: #1cc7ff; }
     .side-nav li.active > a:first-child:not(.button) {
       color: #1cc7ff;
-      font-family: 'Helvetica', "Helvetica Neue", Roboto, Arial, sans-serif;
+      font-family: 'Source Sans Pro', sans-serif;
       font-weight: normal; }
     .side-nav li.divider {
       border-top: 1px solid;
@@ -4176,7 +4176,7 @@ ul.pagination {
   .sub-nav dt, .sub-nav dd, .sub-nav li {
     color: #999999;
     float: left;
-    font-family: 'Helvetica', "Helvetica Neue", Roboto, Arial, sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 0.875rem;
     font-weight: normal;
     margin-left: 1rem;
@@ -4351,7 +4351,7 @@ table {
       display: block;
       background-color: #EFEFEF;
       color: #222222;
-      font-family: 'Helvetica', "Helvetica Neue", Roboto, Arial, sans-serif;
+      font-family: 'Source Sans Pro', sans-serif;
       font-size: 1rem;
       padding: 1rem 2rem; }
       .tabs dd > a:hover, .tabs .tab-title > a:hover {
@@ -4657,7 +4657,7 @@ meta.foundation-mq-topbar {
     .top-bar-section ul li > a {
       color: #ffffff;
       display: block;
-      font-family: 'Helvetica', "Helvetica Neue", Roboto, Arial, sans-serif;
+      font-family: 'Source Sans Pro', sans-serif;
       font-size: 0.8125rem;
       font-weight: normal;
       padding-left: 0.9375rem;
@@ -5212,7 +5212,7 @@ p {
 /* Default header styles */
 h1, h2, h3, h4, h5, h6 {
   color: #222222;
-  font-family: 'Helvetica', "Helvetica Neue", Roboto, Arial, sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-style: normal;
   font-weight: normal;
   line-height: 1.4;
@@ -5275,7 +5275,7 @@ code {
   border-style: solid;
   border-width: 1px;
   color: #333333;
-  font-family: Consolas, "Liberation Mono", Courier, monospace;
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: normal;
   padding: 0.125rem 0.3125rem 0.0625rem; }
 
@@ -6494,7 +6494,7 @@ body {
   -webkit-font-smoothing: antialiased; }
 
 h1, h2, h3, h4 {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: bold; }
 
 /* ------------------------------------------------------------ *\
@@ -6555,17 +6555,16 @@ h1, h2, h3, h4 {
   .header .socials {
     margin-left: 4px; }
   .header .logo-img img {
-    max-width: 200px;
-    height: auto; }
+    max-width: 250px;
+    height: auto;
+  }
   .header .top-bar {
-  //  height: 125px;
-  //  padding: 41px 0 40px;
     background: transparent; }
   .header .top-bar .name h1 a {
     float: left;
     color: #222222;
     font-size: 25px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     text-transform: uppercase;
     font-weight: bold;
     padding: 0; }
@@ -6773,8 +6772,12 @@ h1, h2, h3, h4 {
 	Sections
 \* ------------------------------------------------------------ */
 .section-comments {
-  background: #ffffff;
-  padding: 53px 60px 35px; }
+      position: relative;
+    background: #fff;
+    padding: 25px 30px!important;
+    border-radius: 10px!important;
+    margin-bottom: 15px;
+}
 
 @media only screen and (max-width: 641px) {
   .section-comments {
@@ -7025,9 +7028,17 @@ body {
   overflow: hidden; }
 
 .footer-bar {
-  background: #000000;
-  color: #7b7b7b;
-  padding: 28px 0 22px; }
+  
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 40px;
+    background-size: cover;
+    background-color: rgba(255,255,255,.5);
+    border-top: 1px solid #ccc;
+    position: relative;
+    z-index: 0;
+   padding: 15px 0px 15px 0px;
+}
 
 /*  Footer Sections  */
 .footer-section {
@@ -7184,7 +7195,7 @@ body {
 	Form Elements
 \* ------------------------------------------------------------ */
 label {
-  font-family: 'Raleway', serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 14.5px;
   font-weight: bold;
   color: #7b7b7b; }
@@ -7659,7 +7670,6 @@ html[xmlns] .flexslider .slides {
 .post {
   position: relative;
     background: #fff;
-    padding: 25px 30px!important;
     border-radius: 10px!important;
     margin-bottom: 15px;
 }
@@ -7689,7 +7699,7 @@ html[xmlns] .flexslider .slides {
   list-style: none outside none;
   text-align: center;
   font-size: 0;
-  margin: 0 0 35px;
+  margin: 0 0 15px;
   padding: 0 60px; }
 
 .post-category li {
@@ -8024,7 +8034,11 @@ pre {
 
 .post-image img {
   width: 100%;
-  height: auto; }
+  height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
 
 .format-image .post-meta {
   margin-bottom: -30px;
@@ -8150,11 +8164,23 @@ pre {
     font-weight: bold;
     line-height: 1.5;
     margin: 0; }
-
+  .fixed-height-article{
+      
+      
+  }
+  .fixed-height-article .post-image img{
+  object-fit: cover;
+  width: 100%; /*or 70%, or what you want*/
+  height: 200px; /*or 70%, or what you want*/
+  overflow: hidden; 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  }
 @media only screen and (max-width: 641px) {
   .post {
-    margin-bottom: 20px;
-    padding: 15px 0; }
+    margin-bottom: 20px;}
 
   .post-title {
     font-size: 18px; }

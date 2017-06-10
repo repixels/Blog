@@ -19,7 +19,7 @@ if ( ! function_exists( 'wplook_css_include' ) ) {
 			Loads our main stylesheet.
 		-----------------------------------------------------------*/
 		wp_enqueue_style( 'morning-style', get_stylesheet_uri(), array(), '2015-0404' );
-		wp_enqueue_style( 'morning-fonts', '//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic%7CRaleway:400,300,200,100,900,800,700,600,500', array('morning-style'), '2015-09-07', 'all' );
+		wp_enqueue_style( 'morning-fonts', '//fonts.googleapis.com/css?family=Source+Sans+Pro', array('morning-style'), '2015-09-07', 'all' );
 
 	}
 	add_action( 'wp_enqueue_scripts', 'wplook_css_include' );

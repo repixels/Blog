@@ -37,7 +37,7 @@
 			<div class="row">
 				<div class="columns large-6">
 					<p class="copyright">
-						<?php if ( get_theme_mod('wplook_copy') ){ echo esc_html(get_theme_mod('wplook_copy') ); } ?> <?php _e('Designed by', 'morningtime-lite'); ?> <a href="https://wplook.com/" title="<?php _e('Morning Time Lite', 'morningtime-lite'); ?>">WPlook Studio</a>
+						<?php if ( get_theme_mod('wplook_copy') ){ echo esc_html(get_theme_mod('wplook_copy') ); } ?> <?php _e('From developers', 'to developers'); ?> <a href="https://vezeeta.com/" title="<?php _e('Book the best doctors in your city', 'vezeeta.com'); ?>">Vezeeta.com</a>
 					</p><!-- /.copyright -->
 				</div><!-- /.columns large-6 -->
 
