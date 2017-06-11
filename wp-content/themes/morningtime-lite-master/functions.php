@@ -252,4 +252,6 @@ if ( ! function_exists( 'morning_time_lite_admin_header_image' ) ) {
 	}
 
 } // morning_time_lite_admin_header_image
+
+
 ?>
