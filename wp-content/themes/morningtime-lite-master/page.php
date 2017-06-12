@@ -12,9 +12,12 @@
 	<div class="main">
 		<div class="main-body">
 			<div class="row">
-				<div class="columns large-8">
+				<div class="columns large-12">
 					<div class="content">
-						<?php get_template_part('content', 'page' ); ?>
+                                  
+                                                	<?php get_template_part('content', 'page' ); ?>
+					
+                                         
 					</div><!-- /.content -->
 
 

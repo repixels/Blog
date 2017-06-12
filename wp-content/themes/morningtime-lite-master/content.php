@@ -9,8 +9,23 @@
 
 ?>
 <?php if( is_single()) { ?>
+	<?php if ( has_post_thumbnail() ) { ?>
+			<div class="post-image post-image-cover">
+				<?php the_post_thumbnail('morning-time-lite-featured-image'); ?>
+			</div><!-- /.post-image -->
+		<?php } ?>
 	<article id="post-<?php the_ID(); ?>" <?php post_class("post post-single"); ?> itemscope itemtype="https://schema.org/BlogPosting">
-		<header class="post-head">
+	
+		<div class="post-meta">
+			<a href="<?php echo esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ); ?>" title="<?php the_author(); ?>" class="post-author wow bounceIn" data-wow-duration="1s" data-wow-delay="0.5s">
+				<?php echo get_avatar(get_the_author_meta( 'ID' ), 120); ?>
+			</a>
+		</div><!-- /.post-meta -->
+	
+            <header class="post-head">
+                  <a href="<?php echo esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) );?>">
+				<p class="fixed-post-author" author="<?php echo get_the_author() ?>" itemprop="author"><?php echo get_the_author(); ?></p><!-- /.post-date -->
+			</a>
 			<time class="post-date" datetime="<?php echo get_the_date( 'c' ) ?>" itemprop="datePublished"><?php morning_time_lite_get_date(); ?></time><!-- /.post-date -->
 
 			<h3 class="post-title">
@@ -20,17 +35,7 @@
 			<ul class="post-category"><li><?php the_category('</li><li>'); ?></li></ul>
 		</header><!-- /.post-head -->
 
-		<?php if ( has_post_thumbnail() ) { ?>
-			<div class="post-image">
-				<?php the_post_thumbnail('morning-time-lite-featured-image'); ?>
-			</div><!-- /.post-image -->
-		<?php } ?>
-
-		<div class="post-meta">
-			<a href="<?php echo esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ); ?>" title="<?php the_author(); ?>" class="post-author wow bounceIn" data-wow-duration="1s" data-wow-delay="0.5s">
-				<?php echo get_avatar(get_the_author_meta( 'ID' ), 120); ?>
-			</a>
-		</div><!-- /.post-meta -->
+	
 
 		<div class="post-body">
 			<div class="entry" itemprop="articleBody">
@@ -73,34 +78,40 @@
 <?php } else { ?>
 
 	<!-- Article -->
-	<article id="post-<?php the_ID(); ?>" <?php post_class('post wow fadeIn'); ?> itemscope itemtype="https://schema.org/BlogPosting" data-wow-duration="0.35s" data-wow-delay="0.15s">
-		<header class="post-head">
-			<a href="<?php the_permalink(); ?>">
-				<time class="post-date" datetime="<?php echo get_the_date( 'c' ) ?>" itemprop="datePublished"><?php morning_time_lite_get_date(); ?></time><!-- /.post-date -->
-			</a>
-			<h3 class="post-title">
-				<a title="<?php the_title(); ?>" href="<?php the_permalink(); ?>" itemprop="url"><?php the_title(); ?></a>
-			</h3><!-- /.post-title -->
-
-			<ul class="post-category"><li><?php the_category('</li><li>'); ?></li></ul>
-		</header><!-- /.post-head -->
-
-		<?php if ( has_post_thumbnail() ) { ?>
+	<article id="post-<?php the_ID(); ?>" <?php post_class('post wow fadeIn fixed-height-article'); ?> itemscope itemtype="https://schema.org/BlogPosting" data-wow-duration="0.35s" data-wow-delay="0.15s">
+	<?php if ( has_post_thumbnail() ) { ?>
 			<div class="post-image">
 				<a href="<?php the_permalink(); ?>">
 					<?php the_post_thumbnail('morning-time-lite-featured-image'); ?>
 				</a>
 			</div><!-- /.post-image -->
 		<?php } ?>
-
-
-		<div class="post-meta">
+                        <div class="post-meta">
 			<a href="<?php echo esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ); ?>" title="<?php the_author(); ?>" class="post-author wow bounceIn" data-wow-duration="1s" data-wow-delay="0.5s">
 				<?php echo get_avatar(get_the_author_meta( 'ID' ), 120); ?>
 			</a>
 		</div><!-- /.post-meta -->
 
+            <header class="post-head">
+                       <a href="<?php echo esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) );?>">
+				<p class="fixed-post-author" author="<?php echo get_the_author() ?>" itemprop="author"><?php echo get_the_author(); ?></p><!-- /.post-date -->
+			</a>
+			<a href="<?php the_permalink(); ?>">
+				<time class="post-date" datetime="<?php echo get_the_date( 'c' ) ?>" itemprop="datePublished"><?php morning_time_lite_get_date(); ?></time><!-- /.post-date -->
+			</a>
+			<h3 class="post-title">
+				<a title="<?php the_title(); ?>" href="<?php the_permalink(); ?>" itemprop="url"><?php the_title();   ?></a>
+			</h3><!-- /.post-title -->
+
+			<ul class="post-category"><li><?php the_category('</li><li>'); ?></li></ul>
+		</header><!-- /.post-head -->
+
+		
+
+
+		
 		<div class="post-body">
+              <!--
 			<div class="entry" itemprop="articleBody">
 				<?php if ( is_search() ||  has_excerpt( $post->ID ) ) {
 					the_excerpt();
@@ -120,7 +131,7 @@
 			</div><!-- /.entry -->
 
 			<div class="post-actions">
-				<a href="<?php the_permalink(); ?>" class="button tiny grey"><?php _e('Read more', 'morningtime-lite'); ?></a>
+				<a href="<?php the_permalink(); ?>" class="button tiny grey"><?php _e('Read Article', 'morningtime-lite'); ?></a>
 			</div><!-- /.post-actions -->
 		</div><!-- /.post-body -->
 	</article><!-- /.post -->
