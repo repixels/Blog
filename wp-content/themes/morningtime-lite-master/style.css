@@ -188,11 +188,12 @@ select {
   width: 100%;
   float: left; }
 
+/*
 .column + .column:last-child, .columns + .columns:last-child {
   float: right; }
 .column + .column.end, .columns + .columns.end {
   float: left; }
-
+*/
 @media only screen {
   .small-push-0 {
     position: relative;
