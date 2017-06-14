@@ -19,6 +19,7 @@
 	<script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/html5.js"></script>
 	<![endif]-->
 	<?php wp_head(); ?>
+        <script src="https://use.fontawesome.com/a1833e71f5.js"></script>
 </head>
 
 <body <?php body_class(); ?>>
