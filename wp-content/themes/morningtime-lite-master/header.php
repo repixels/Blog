@@ -14,8 +14,9 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<?php wp_head(); ?>
-        <script src="https://use.fontawesome.com/a1833e71f5.js"></script>
-</head>
+        
+<link rel="stylesheet" href="https://use.fontawesome.com/a1833e71f5.css">
+ </head>
 <body <?php body_class(); ?>>
 <div class="wrapper">
 	<header class="header">
