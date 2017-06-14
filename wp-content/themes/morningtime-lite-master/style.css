@@ -6945,6 +6945,12 @@ footer .widget ul a {
   line-height:17px;
     
 }
+#recent-posts-2 > ul > li{
+   margin-bottom: 10px;
+}
+#categories-3 > ul > li{
+   margin-bottom: 10px;
+}
 
 .widget ul a:hover, .current-menu-item > a {
   color: #117dbf !important; }

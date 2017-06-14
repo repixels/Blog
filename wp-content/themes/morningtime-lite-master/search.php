@@ -23,13 +23,13 @@
 
 	<div class="main-body">
 		<div class="row">
-			<div class="columns large-12">
+			<div class="columns large-8">
 				<div class="content">
 					<?php if ( have_posts() ) : ?>
 
 						<?php while ( have_posts() ) : the_post(); ?>
 					
-      <div class="columns large-4">
+      <div class="columns large-12">
 							<?php get_template_part( 'content', get_post_format() ); ?>
 						</div>
 	<?php endwhile; ?>
