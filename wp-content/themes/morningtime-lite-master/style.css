@@ -6937,11 +6937,12 @@ body {
 }
 
 .widget ul a {
- // display: inline-block;
+
   color: #666!important;
   font-size: 11.9px;
   font-weight: normal;
   font-style: normal;
+  line-height:17px;
     
 }
 
@@ -7051,9 +7052,10 @@ body {
 
 .footer-body {
   color: #7b7b7b;
-  background-color: rgba(255,255,255,.75)
+  background-color: rgba(255,255,255,.75);
   border-top: 1px solid #ccc;
-  overflow: hidden; }
+  overflow: hidden; 
+}
 
 .footer-bar {
   
@@ -7071,7 +7073,7 @@ body {
 /*  Footer Sections  */
 .footer-section {
   position: relative;
-  padding: 25px 0 34px; }
+  padding: px 0 34px; }
   .footer-section-alt:before {
     content: '';
     position: absolute;
