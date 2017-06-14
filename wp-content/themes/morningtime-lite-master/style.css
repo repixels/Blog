@@ -7763,15 +7763,16 @@ body > div.wrapper{
    overflow-y:hidden;
 }
 .post-image-cover{
-    margin-top: -10%;
     border: none;
-    width: 116%;
-    margin-right: -10%;
-    margin-left: -8%;
-    height: 450px !important;
+    width: 100%;
+    max-height: 450px !important;
     overflow-y: hidden;
     
 }
+    .single-post-main{
+        padding:inherit;
+        
+    }
 .post-image-cover img{
       border: none !important;
     height: 100% !important; 
@@ -8053,7 +8054,6 @@ pre {
 
 .post-single {
   padding-bottom: 0; 
-    margin-top: -10%;
 }
   .post-single .entry p {
     margin-bottom: 25px; }
@@ -8089,8 +8089,14 @@ pre {
 .post-image img {
   width: 100%;
   height: auto;
+     min-height: 200px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+
+}
+.single-post-main .post-image img {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
 
 }
 
