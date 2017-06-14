@@ -6928,14 +6928,14 @@ body {
 .widget ul {
   list-style: none outside none;
   margin: 0;
- // border-top: 1px dashed #7b7b7b;
   margin-right: 20px;
   padding-bottom: 23px; }
 
-.widget li {
-  //border-bottom: 1px dashed #7b7b7b; 
-}
 
+
+.text-widget ul li {
+   height: 20px;
+}
 .widget ul a {
 
   color: #666!important;

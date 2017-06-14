@@ -11,23 +11,30 @@
 <footer class="footer">
 		<div class="footer-body">
 			<div class="row">
-				<div class="columns large-4">
+				<div class="columns large-3">
 					<?php if ( is_active_sidebar( 'f1-widgets' ) ) : ?>
 						<?php dynamic_sidebar( 'f1-widgets' ); ?>
 					<?php endif; ?>
 				</div><!-- /.columns large-4 -->
 
-				<div class="columns large-4">
+				<div class="columns large-3">
 					<!-- Second Widget area -->
 					<?php if ( is_active_sidebar( 'f2-widgets' ) ) : ?>
 						<?php dynamic_sidebar( 'f2-widgets' ); ?>
 					<?php endif; ?>
 				</div><!-- /.columns large-4 -->
 
-				<div class="columns large-4">
+				<div class="columns large-3">
 					<!-- Third Widget area -->
 					<?php if ( is_active_sidebar( 'f3-widgets' ) ) : ?>
 						<?php dynamic_sidebar( 'f3-widgets' ); ?>
+					<?php endif; ?>
+				</div><!-- /.columns large-4 -->
+                                
+				<div class="columns large-3">
+					<!-- Third Widget area -->
+					<?php if ( is_active_sidebar( 'f4-widgets' ) ) : ?>
+						<?php dynamic_sidebar( 'f4-widgets' ); ?>
 					<?php endif; ?>
 				</div><!-- /.columns large-4 -->
 			</div><!-- /.row -->
