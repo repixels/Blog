@@ -32,14 +32,14 @@
 				</div><!-- /.columns large-4 -->
 			</div><!-- /.row -->
 		</div><!-- /.footer-body -->
-
+<!--
 		<div class="footer-bar">
 			<div class="row">
 				<div class="columns large-6">
 					<p class="copyright">
 						<?php if ( get_theme_mod('wplook_copy') ){ echo esc_html(get_theme_mod('wplook_copy') ); } ?> <?php _e('From developers', 'to developers'); ?> <a href="https://vezeeta.com/" title="<?php _e('Book the best doctors in your city', 'vezeeta.com'); ?>">Vezeeta.com</a>
-					</p><!-- /.copyright -->
-				</div><!-- /.columns large-6 -->
+					</p>
+				</div>
 
 				<div class="columns large-6">
 					<?php
@@ -48,8 +48,8 @@
 								<?php wp_nav_menu( array('depth' => '3', 'theme_location' => 'footernav', 'container'	 => '','depth' => -1, )); ?>
 							</nav>
 					<?php } ?>
-				</div><!-- /.columns large-6 -->
-			</div><!-- /.row -->
+				</div>
+			</div> <!-- /.copyright --><!-- /.row -->
 		</div><!-- /.footer-bar -->
 	</footer><!-- /.footer -->
 </div><!-- /.wrapper -->

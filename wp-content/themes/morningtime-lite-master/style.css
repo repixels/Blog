@@ -5294,7 +5294,8 @@ code {
 ul, ol, dl {
   font-family: inherit;
   font-size: 1rem;
-  line-height: 1.6;
+  
+  line-height: 1.428571429;
   list-style-position: outside;
   margin-bottom: 1.25rem; }
 
@@ -6929,7 +6930,6 @@ body {
   margin: 0;
  // border-top: 1px dashed #7b7b7b;
   margin-right: 20px;
-  margin-top: 30px;
   padding-bottom: 23px; }
 
 .widget li {
@@ -6938,10 +6938,12 @@ body {
 
 .widget ul a {
  // display: inline-block;
-  color: #7b7b7b;
-//  padding: 14px 18px 13px;
-  font-size: 15px;
-  font-weight: lighter; }
+  color: #666!important;
+  font-size: 11.9px;
+  font-weight: normal;
+  font-style: normal;
+    
+}
 
 .widget ul a:hover, .current-menu-item > a {
   color: #117dbf !important; }
@@ -7048,8 +7050,9 @@ body {
   z-index: 100; }
 
 .footer-body {
-  background: #ffffff;
   color: #7b7b7b;
+  background-color: rgba(255,255,255,.75)
+  border-top: 1px solid #ccc;
   overflow: hidden; }
 
 .footer-bar {
@@ -7068,7 +7071,7 @@ body {
 /*  Footer Sections  */
 .footer-section {
   position: relative;
-  padding: 51px 0 34px; }
+  padding: 25px 0 34px; }
   .footer-section-alt:before {
     content: '';
     position: absolute;
@@ -7083,17 +7086,14 @@ body {
   .footer-section .footer-section-title {
     font-size: 25px;
     color: #222222;
-    font-weight: bold; }
+    font-weight: bold;
+  font-weight: 600;
+  }
   .footer-section-alt .footer-section-title {
-    color: #222222;
-    font-size: 19px; }
-  .footer-section .footer-section-title:after {
-    content: '';
-    display: block;
-    width: 60px;
-    height: 1px;
-    margin: 16px 0 22px;
-    background: #d95204; }
+    color: #0070cd!important;
+    font-size: 19px; 
+        
+  }
   .footer-section-alt .footer-section-title:after {
     background: #ffffff;
     margin-top: 15px; }
@@ -7761,9 +7761,9 @@ body > div.wrapper{
 .post-image-cover{
     margin-top: -10%;
     border: none;
-    width: 130%;
-    margin-right: -15%;
-    margin-left: -15%;
+    width: 116%;
+    margin-right: -10%;
+    margin-left: -8%;
     height: 450px !important;
     overflow-y: hidden;
     
