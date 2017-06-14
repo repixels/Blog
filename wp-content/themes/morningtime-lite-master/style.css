@@ -6936,7 +6936,7 @@ body {
 .text-widget ul li {
    height: 20px;
 }
-.widget ul a {
+footer .widget ul a {
 
   color: #666!important;
   font-size: 11.9px;
