@@ -9,15 +9,14 @@
 
 ?>
 <?php if( is_single()) { ?>
-<!--
-	<?php if ( has_post_thumbnail() ) { ?>
-			<div class="post-image post-image-cover">
-				<?php the_post_thumbnail('morning-time-lite-featured-image'); ?>
-			</div><!-- /.post-image -->
-		<?php } ?>
+
 
 	<article id="post-<?php the_ID(); ?>" <?php post_class("post post-single"); ?> itemscope itemtype="https://schema.org/BlogPosting">
-	
+	      <?php if ( has_post_thumbnail() ) { ?>
+			<div class="post-image post-image-cover">
+				<?php the_post_thumbnail('morning-time-lite-featured-image'); ?>
+			</div>
+		<?php } ?>
 		<div class="post-meta">
 			<a href="<?php echo esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ); ?>" title="<?php the_author(); ?>" class="post-author wow bounceIn" data-wow-duration="1s" data-wow-delay="0.5s">
 				<?php echo get_avatar(get_the_author_meta( 'ID' ), 120); ?>

@@ -7769,10 +7769,7 @@ body > div.wrapper{
     overflow-y: hidden;
     
 }
-    .single-post-main{
-        padding:inherit;
-        
-    }
+  
 .post-image-cover img{
       border: none !important;
     height: 100% !important; 
@@ -8086,6 +8083,9 @@ pre {
 .post-image {
   position: relative; }
 
+.toggle-topbar.menu-icon{
+    display :none;
+}
 .post-image img {
   width: 100%;
   height: auto;

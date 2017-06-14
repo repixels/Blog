@@ -12,13 +12,9 @@
 
 <div class="main single-post-main">
 	<div class="main-body">
-            	<?php if ( has_post_thumbnail() ) { ?>
-			<div class="post-image post-image-cover">
-				<?php the_post_thumbnail('morning-time-lite-featured-image'); ?>
-			</div><!-- /.post-image -->
-		<?php } ?>
+           
 		<div class="row">
-			<div class="columns large-12">
+			<div class="columns large-8">
 				<div class="content">
 					<?php if ( have_posts() ) : ?>
 
