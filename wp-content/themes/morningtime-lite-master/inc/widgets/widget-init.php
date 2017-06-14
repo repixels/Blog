@@ -86,6 +86,16 @@ function wplook_widgets_init() {
 		'after_title' => '</h3></div>'
 	) );
 
+	register_sidebar( array(
+		'name' => __( 'Forth Footer Widget Area', 'morningtime-lite' ),
+		'id' => 'f4-widgets',
+		'description' => __( 'The forth footer widget area', 'morningtime-lite' ),
+		'before_widget' => '<section id="%1$s" class="widget footer-section %2$s">',
+		'after_widget' => "</section>",
+		'before_title' => '<div class="footer-section-head"><h3 class="footer-section-title">',
+		'after_title' => '</h3></div>'
+	) );
+
 }
 /** Register sidebars */
 add_action( 'widgets_init', 'wplook_widgets_init' );
