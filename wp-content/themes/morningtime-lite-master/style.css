@@ -8089,9 +8089,28 @@ pre {
 .post-image {
   position: relative; }
 
-.toggle-topbar.menu-icon{
-    display :none;
+#menu-blog-categories li a{
+     color:white;
+     margin-left:5px;
+     margin-right:5px;
+     font-weight:700;
 }
+#menu-blog-categories li:hover{
+   border-bottom: 3px solid #ef0f0f!important;
+}
+#menu-blog-categories{
+     margin-top: 20px;
+}
+
+@media only screen and (max-width: 641px) {
+  .header .logo-img img {
+    max-width: 200px;
+}
+ #menu-blog-categories{
+    margin-top: 40px;
+}
+ }
+  
 .post-image img {
   width: 100%;
   height: auto;
