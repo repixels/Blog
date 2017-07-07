@@ -5290,7 +5290,7 @@ code {
 /* Lists */
 ul, ol, dl {
   font-family: inherit;
-  font-size: 1rem;
+  font-size: 1.25rem;
   
   line-height: 1.428571429;
   list-style-position: outside;
@@ -5353,7 +5353,7 @@ abbr {
 blockquote {
   margin: 0 0 1.25rem;
   padding: 0.5625rem 1.25rem 0 1.1875rem;
-  border-left: 1px solid #DDDDDD; }
+  border-left: 1px solid #0070CD }
   blockquote cite {
     display: block;
     font-size: 0.8125rem;
@@ -6735,7 +6735,7 @@ h1, h2, h3, h4 {
       background: rgba(255, 255, 255, 0); }
 
     .header .top-bar.expanded .toggle-topbar.menu-icon a {
-      color: #d95204; }
+      color: #DA1E27; }
 
     .header .top-bar-section ul {
       display: none; }
@@ -8055,9 +8055,10 @@ pre {
 .post-single {
   padding-bottom: 0; 
 }
-  .post-single .entry p {
-    margin-bottom: 25px; }
+.post-single .entry li p {
 
+}
+ 
 /*  Post Sticky  */
 .post.sticky:before {
   content: '';
@@ -8275,9 +8276,6 @@ border-radius: 10px 10px 0px 0px;}
 
   .post .entry {
     padding: 0 20px; }
-
-  .post .entry p {
-    font-size: 12px; }
 
   .post .entry blockquote p {
     font-size: 18px; }
