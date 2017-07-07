@@ -4583,7 +4583,6 @@ meta.foundation-mq-topbar {
     position: relative; }
   .top-bar .name {
     font-size: 16px;
-    height: 2.8125rem;
     margin: 0; }
     .top-bar .name h1, .top-bar .name h2, .top-bar .name h3, .top-bar .name h4, .top-bar .name p, .top-bar .name span {
       font-size: 1.0625rem;
@@ -6689,7 +6688,7 @@ h1, h2, h3, h4 {
 
     .header .top-bar {
       height: auto;
-      padding: 20px 0; }
+       }
 
     .header .top-bar .title-area {
       display: inline-block;
@@ -6849,6 +6848,7 @@ body {
   .sidebar .widget {
     background: #ffffff;
     color: #7b7b7b;
+    border-radius: 10px;
     padding: 33px 40px 34px;
     margin-bottom: 40px; }
   .sidebar .widget-title {
@@ -7113,8 +7113,7 @@ footer .widget ul a {
   .footer-section .footer-section-entry p + p {
     margin-top: 25px; }
   @media only screen and (max-width: 1025px) {
-    .footer-section {
-      padding: 30px 0 20px; }
+   /* .footer-section {   padding: 30px 0 20px; } */
 
     .footer-section-alt:before {
       height: 100%;
@@ -8084,10 +8083,18 @@ pre {
   color: #7b7b7b; }
 .format-video .post-video {
   margin-bottom: 40px; }
-
+.no-padding-right{
+    padding-right: 0px;
+}
+.no-padding-left{
+    padding-left: 0px;
+}
+padding-left: 0px;
+    
 /* Post Format image */
 .post-image {
-  position: relative; }
+  position: relative;
+border-radius: 10px 10px 0px 0px;}
 
 #menu-blog-categories li a{
      color:white;
@@ -8115,13 +8122,11 @@ pre {
   width: 100%;
   height: auto;
      min-height: 200px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-radius: 10px 10px 0px 0px;
 
 }
 .single-post-main .post-image img {
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
+ border-radius: 10px 10px 0px 0px;
 
 }
 
