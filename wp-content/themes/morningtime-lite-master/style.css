@@ -8055,10 +8055,18 @@ pre {
 .post-single {
   padding-bottom: 0; 
 }
-.post-single .entry li p {
+  .post-single .entry p {
+    margin-bottom: 25px; 
+    --x-height-multiplier: 0.35;
+    --baseline-multiplier: 0.179;
+    font-family: Georgia,Cambria,"Times New Roman",Times,serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 1.58;
+    letter-spacing: -.003em;
+  }
 
-}
- 
 /*  Post Sticky  */
 .post.sticky:before {
   content: '';
@@ -8276,6 +8284,9 @@ border-radius: 10px 10px 0px 0px;}
 
   .post .entry {
     padding: 0 20px; }
+
+  .post .entry p {
+    font-size: 18px; }
 
   .post .entry blockquote p {
     font-size: 18px; }
