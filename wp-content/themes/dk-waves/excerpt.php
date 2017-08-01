@@ -23,9 +23,11 @@
 			<a href="<?php the_permalink(); ?>">
 				<h2><?php the_title(); ?></h2>
 			
+                <!--
 				<div class="entry-excerpt">
-					<?php the_excerpt(); ?>
+					<?php //the_excerpt(); ?>
 				</div>
+                -->
 			</a>
 			
 			<div class="entry-author">
