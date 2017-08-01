@@ -111,7 +111,23 @@ body.unloading #loadscreen img { opacity: 0; }
 /* Navigation */
 #menu { float: left; margin: 0; position: relative; z-index: 4; }
 #menu > ul > li { display: inline-block; margin-right: 3em; padding: .4em 0 1em; position: relative; z-index: 5; }
-#menu ul li a { display: block; color: black; text-decoration: none; text-transform: uppercase; font-weight: 700; font-size: 85%; background: none; }
+#menu ul li a { display: block; color: black; text-decoration: none; text-transform: uppercase; font-weight: 700; font-size: 85%; background: none; position: relative;}
+
+#menu ul li a:after {
+	content: '';
+  	position: absolute;
+  	bottom: 0;
+	left: 0;
+	width: 0%;
+	border-bottom: 2px solid #3366FF;
+	transition: 0.4s; 
+}
+
+#menu ul li a:hover:after {
+  width: 100%;
+  opacity: 1.0;
+}
+
 #menu ul li:last-child { margin-right: 0; }
 #menu > ul > li.menu-item-has-children, #menu > ul > li.page_item_has_children { margin-right: 4em; }
 #menu > ul > li > a:hover { opacity: .6; }
@@ -139,7 +155,7 @@ animation: hideMenu .2s cubic-bezier(0.7,0,0.3,1) forwards; }
 	100% { opacity: 1; transform: translateY(0); } }
 #menu ul li.submenu-shown a { border-bottom: 0; }
 
-#extras { float: right; font-size: 85%; position: relative; right: 0; margin: .6em 0 0; }
+#extras { float: right; font-size: 85%; position: relative; right: 30px; margin: .6em 0 0; }
 #extras a.button { display: inline; background: transparent; border: 1px solid #28bd7c; color: black; padding: 9px 24px 6px; margin: 0; vertical-align: middle; top: .1em; }
 #extras a.button:hover { box-shadow: 0 0 2px #28bd7c; }
 #extras #searchbar { float: left; margin: -16px 12px 0 0; width: 200px; }
