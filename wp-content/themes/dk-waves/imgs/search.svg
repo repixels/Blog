@@ -1,0 +1,17 @@
+<svg id="search" xmlns="http://www.w3.org/2000/svg" width="19" height="19.344" viewBox="0 0 19 19.344">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #000;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <circle class="cls-1" cx="8.5" cy="8.5" r="7.5"/>
+  <path id="Rounded_Rectangle_556" data-name="Rounded Rectangle 556" class="cls-2" d="M1194.04,86.392a1.007,1.007,0,0,1,1.42,0l4.24,4.243a1,1,0,0,1-1.41,1.414l-4.25-4.243A1,1,0,0,1,1194.04,86.392Z" transform="translate(-1181 -73)"/>
+</svg>

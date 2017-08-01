@@ -1,0 +1,100 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,#footer,#header,hgroup,menu,nav,section,summary,time,mark,audio,video { margin:0; padding:0; border:0; outline:0; font-size:100%; font:inherit; vertical-align:baseline; }
+/* HTML5 display-role reset for older browsers */
+article,aside,details,figcaption,figure,#footer,#header,hgroup,menu,nav,section { display:block; }
+nav ul { list-style:none; }
+table{ border-collapse:collapse; border-spacing:0; }
+
+*, *:after, *::before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; -webkit-font-smoothing: antialiased; }
+
+/* TINYMCE in admin
+--------------------------------------------------------- */
+#tinymce { padding: 2em !important; }
+#tinymce .gallery-item {  }
+#tinymce .gallery-icon { width: auto; display: block; font-weight: 200; position: relative; }
+#tinymce .gallery-caption, #tinymce .wp-caption-dd { display: none; }
+#tinymce .wp-caption { background: none; border: 0; }
+#tinymce .gallery dl { clear: none; display: block; }
+#tinymce .gallery img { margin-bottom: 0; }
+
+/* WYSIWYG TEXT STYLES
+--------------------------------------------------------- */
+html { font-family: sans-serif; font-size: 100%; }
+body { font-family: sans-serif; font-size: 1em; }
+
+h1, h2, h3, h4, h5, h6 { font-weight: 700; clear: both; }
+h1 { font-size: 2.25em; margin: 0 0 16px; line-height: 1.35;  }
+h2 { font-size: 1.75em; margin: 0 0 16px; line-height: 1.25; }
+h3 { font-size: 1.25em; margin: 0 0 16px; line-height: 1.45; }
+h4 { font-size: 1.10em; margin: 0 0 8px;  line-height: 1.45; }
+h5 { font-size: 1em; margin: 0 0 8px;  line-height: 1.45; }
+h6 { font-size: .9em;  margin: 0 0 8px;  line-height: 1.45; }
+p { padding: 0 0 32px; line-height: 1.8; }
+ul, ol { padding: 0 0 32px 32px; line-height: 1.8; list-style: disc; }
+ol { list-style: decimal; }
+address { padding-bottom: 32px; line-height: 1.8; }
+strong, input, button, .button { font-weight: 700; }
+nav ul { list-style: none; padding: 0; }
+em { font-style: italic; font-family: Times, serif; font-weight: normal; } 
+a { color: inherit; text-decoration: none; transition: all .2s ease-out; cursor: pointer; }
+p a, li a { background-image: linear-gradient(to bottom,#4dc76f 50%,rgba(0,0,0,0) 50%);
+    background-repeat: repeat-x; background-size: 2px 2px;
+    background-position: 0 1.04em; }
+p a:hover, li a:hover { border-bottom-color: transparent; color: #4dc76f; background-position: 0 1.08em; }
+p a.button:hover, li a.button:hover { color: white; }
+nav li a { border-bottom: 0; }
+ul ul, ol ol { padding-bottom: 0; }
+dl { clear: both; display: table; width: 100%; margin: 0 0 2em; }
+dt, dd { line-height: 1.6; }
+dd { padding-bottom: 1.6em; }
+dt { }
+sub { font-size: .6em; vertical-align: bottom; }
+sup { font-size: .6em; vertical-align: super; }
+pre { display: inline-block; background: white; margin: 0 0 2em; padding: 15px 24px; border: 1px dashed #dadada; white-space: pre-wrap; }
+code { font-family: "Courier New"; font-size: 85%; }
+hr { clear: both; background: rgba(0,0,0,.05); height: 2px; border: 0; margin: 1em 0 2em; }
+hr.br { height: 1px; background: transparent !important; margin: 0 0 2em; }
+
+.clear { clear: both; }
+.alignleft { float: left; }
+.alignright { float: right; }
+.aligncenter { text-align: center; margin-left: auto; margin-right: auto; }
+.justify { text-align: justify; }
+.justifyleft { text-align: left; }
+.justifyright { text-align: right; }
+.smaller-padding { padding-bottom: 8px; }
+.smaller-margin { margin-bottom: 8px; }
+.no-padding { padding-bottom: 0; }
+.no-margin { margin-bottom: 0; }
+.grey { color: #a3a3a3; }
+
+img, iframe { border: 0; margin: 0; max-width: 100%; height: auto; }
+iframe { width: 800px; height: 380px; margin: 0; }
+p img, h2 img { vertical-align: middle; }
+img.alignleft { margin: 8px 24px 24px 0; }
+img.alignright { margin: 8px 0 24px 24px; }
+img.aligncenter { display: block; }
+img.emoji { width: 16px; margin: 0; vertical-align: baseline; }
+p.alignleft, div.alignleft, figure.alignleft { margin-right: 24px; }
+p.alignright, div.alignright, figure.alignright { margin-left: 24px; }
+figure { padding: 0 0 32px;  }
+figure img { margin: 0; }
+.wp-caption { max-width: 100%; }
+img.size-full + .wp-caption-text { text-align: center; padding: 1em 0 0; }
+.wp-caption-text { font-size: 75%; color: #959595; text-align: center; padding: 1em 0 0; }
+.screen-reader-text { visibility: hidden; font-size: 0; }
+.rsswidget img, img.wp-smiley { margin: 0; }
+.rss-date { display: block; font-size: 9pt; padding: 4px 0; }
+
+table { width: 100%; border-collapse: collapse; border: 1px solid rgba(0,0,0,.1); background: white; box-shadow: 0 3px 7px rgba(0,0,0,.05); margin: 0 0 2em; clear: both; padding: 2em 2em 1em 2em; }
+table th { border-bottom: 1px solid rgba(0,0,0,.05); padding: 13px; text-align: left; font-weight: 600; }
+table td { border-bottom: 1px solid rgba(0,0,0,.05); padding: 13px; vertical-align: middle; }
+table #today { background: #39DA81; color: white; text-align: center; }
+table#wp-calendar tbody a { padding: 5px 0; display: block;  margin: -5px; color: white; text-align: center; } 
+table#wp-calendar td, table#wp-calendar th { text-align: center; }
+table#wp-calendar caption { padding: 0 0 24px; }
+table #prev { text-align: left; }	table #next { text-align: right; }
+
+blockquote { clear: both; position: relative; padding: 0 0 0 32px; font-style: italic; margin: 0 0 32px; }
+blockquote::before { content: ""; position: absolute; left: 0; background: #00a95f; width: 2px; height: 100%; display: block; } 
+blockquote p:last-child { padding: 0; }
+cite { display: block; }
