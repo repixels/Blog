@@ -566,7 +566,7 @@ _____________________________________ */
 	#menu > ul > li { margin: 0 1em; }
 	#menu > ul > li.menu-item-has-children, 
 	#menu > ul > li.page_item_has_children { margin-right: 2em; }
-	#extras { position: absolute; top: 24px; zoom: 80%; }
+	#extras { /* position: absolute; top: 24px; zoom: 80%; */ visibility: hidden; }
 	
 	/* everything in one column */
 	.excerpts, .excerpt, .featured-image-excerpt { width: 100% !important; margin-right: 0 !important; padding-right: 0 !important; height: auto !important; }
