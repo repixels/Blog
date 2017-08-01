@@ -84,7 +84,7 @@ body.boxed #footer::after { left: 0; right: 0; width: auto; margin: 0 -56px; }
 
 /* 4. HEADER
 _____________________________________ */
-#header { padding: 72px 0 136px; position: relative; z-index: 3; }
+#header { padding: 20px 0 136px; position: relative; z-index: 3; }
 
 /* Preloading effects */
 body.loading main#content, body.loading #sidebar, body.loading #logo, body.loading #menu, body.loading #extras { opacity: 0; }
@@ -125,7 +125,7 @@ body.unloading #loadscreen img { opacity: 0; }
 
 #menu ul li a:hover:after {
   width: 100%;
-  opacity: 1.0;
+  opacity: 1.0 !important;
 }
 
 #menu ul li:last-child { margin-right: 0; }
@@ -240,7 +240,7 @@ h1.page-title + p { color: #616161; padding-bottom: 8px; }
 .excerpt .entry-header { z-index: 2; }
 .excerpt .entry-header > a { display: block; }
 .entry-meta { font-size: 9pt; text-transform: uppercase; line-height: 1.6; }
-.excerpt h2 { margin: 32px 0 24px; }
+.excerpt h2 { margin: 32px 0 24px; color : #0070cd!important; }
 .excerpt .entry-author img { width: 34px; height: 34px; float: left; margin: -10px 16px 16px 0; }
 .excerpt .entry-excerpt { font-size: 95%; margin-top: -8px; }
 #more-excerpts { position: relative; margin: 7em 0 -10em; padding: 5em 0; }
