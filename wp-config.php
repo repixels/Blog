@@ -23,13 +23,13 @@
 define('DB_NAME', 'VZEngineeringBlog');
 
 /** MySQL database username */
-define('DB_USER', 'vezeeta');
+define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'vezeeta.com');
+define('DB_PASSWORD', 'Rkm3r8ctTdWJ4M8u');
 
 /** MySQL hostname */
-define('DB_HOST', '160.153.16.28:3306');
+define('DB_HOST', 'localhost:3306');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8mb4');
@@ -87,3 +87,6 @@ if ( !defined('ABSPATH') )
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
+
+/* Added by Vezeeta */
+define('FS_METHOD','direct');
