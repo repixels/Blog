@@ -35,7 +35,7 @@
 		<div id="extras">
 			<?php get_search_form(); ?>
 			
-			<a href="https://www.vezeeta.com" class="button"><?php echo esc_attr( get_theme_mod( 'waves_login_button_text', esc_html__('Write','dk_waves') )); ?></a>
+			<a href="https://vezeeta.bamboohr.com/jobs/" class="button"><?php echo esc_attr( get_theme_mod( 'waves_login_button_text', esc_html__('Write','dk_waves') )); ?></a>
 		</div>
 				
 		<!-- Main menu __-->
