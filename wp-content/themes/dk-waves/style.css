@@ -84,7 +84,7 @@ body.boxed #footer::after { left: 0; right: 0; width: auto; margin: 0 -56px; }
 
 /* 4. HEADER
 _____________________________________ */
-#header { padding: 20px 0 136px; position: relative; z-index: 3; }
+#header { padding: 20px 0 100px; position: relative; z-index: 3; }
 
 /* Preloading effects */
 body.loading main#content, body.loading #sidebar, body.loading #logo, body.loading #menu, body.loading #extras { opacity: 0; }
