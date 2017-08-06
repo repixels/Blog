@@ -43,7 +43,7 @@ input[type=radio] { float: left; margin: 12px 12px 0 0 !important; }
 input[type=number] { width: 40px; margin: 0 5px; }
 input.wpcf7-not-valid { background-color: #f9e5e6; }
 
-input[type=submit], input[type=button], button, .button { display: inline-block; width: auto; height: auto; padding: 16px 36px 12px; font-weight: 700; font-size: 11pt; line-height: 1; text-align: center; cursor: pointer; border: 2px solid #f3f3f3; margin: -1px 8px 12px 0; text-decoration: none !important; color: white; z-index: 2; overflow: hidden; position: relative; vertical-align: middle; outline: 0; text-transform: uppercase; border-radius: 30px; background: linear-gradient(-30deg, #4dc76f 0%, #28bd7c 100%);
+input[type=submit], input[type=button], button, .button { display: inline-block; width: auto; height: auto; padding: 16px 36px 12px; font-weight: 700; font-size: 11pt; line-height: 1; text-align: center; cursor: pointer; border: 2px solid #f3f3f3; margin: -1px 8px 12px 0; text-decoration: none !important; color: white; z-index: 2; overflow: hidden; position: relative; vertical-align: middle; outline: 0; text-transform: uppercase; border-radius: 5px; background: linear-gradient(-30deg, #4dc76f 0%, #28bd7c 100%);
 transition: all .2s cubic-bezier(0.6, 0.5, 0.27, 1.29); }
 input[type=submit]:hover, input[type=button]:hover, button:hover, .button:hover,
 input[type=submit]:focus, input[type=button]:focus, button:focus, .button:focus
