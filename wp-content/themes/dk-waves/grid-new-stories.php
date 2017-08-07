@@ -5,6 +5,13 @@
 ?>
 <?php get_header(); ?>
 
+<hr class="br">
+<h1 class="aligncenter">Engineering @ Vezeeta</h1>
+<h4 class="aligncenter grey">Engineering at Vezeeta is not just about writing world-class code. We also like to talk about what we're doing, and to share information about the projects, processes and products we're working on - not to mention a little bit of our famous hacker culture.</h4>
+<hr class="br">
+<p class="aligncenter"><a class="button login" href="https://www.vezeeta.com/ar/Generic/LifeAtDrBridge">Read More</a></p>
+<hr class="br">
+
 <?php
     while ( have_posts() ) : the_post(); ?> 
     		<?php if ( has_post_thumbnail() ) : ?>
