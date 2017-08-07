@@ -2,8 +2,7 @@
 
 	<?php if ( !is_front_page() && hybrid_is_plural() ) : // If viewing a multi-post page ?>
 		<?php locate_template( array( 'loop-meta.php' ), true ); ?>
-
-        <hr class="br">
+<hr class="br">
 <h1 class="aligncenter">Engineering @ Vezeeta</h1>
 <h4 class="aligncenter grey">Engineering at Vezeeta is not just about writing world-class code. We also like to talk about what we're doing, and to share information about the projects, processes and products we're working on - not to mention a little bit of our famous hacker culture.</h4>
 <hr class="br">
@@ -20,7 +19,7 @@
 			<?php hybrid_get_content_template(); // Loads the content-*.php template. ?>
 
 		<?php endwhile; ?>
-
+            
 	<?php if ( !is_front_page() && hybrid_is_plural() ) : // If viewing a multi-post page ?>
 		</div><!-- .excerpts -->
 		<?php locate_template( array( 'loop-nav.php' ), true ); // Loads the nav template. ?>
