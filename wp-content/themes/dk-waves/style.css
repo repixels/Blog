@@ -130,7 +130,6 @@ body.unloading #loadscreen img { opacity: 0; }
 
 #menu ul li:last-child { margin-right: 0; }
 #menu > ul > li.menu-item-has-children, #menu > ul > li.page_item_has_children { margin-right: 4em; }
-#menu > ul > li > a:hover { opacity: .6; }
 #menu ul li.current-menu-item > a, #menu ul li.current-menu-parent > a, #menu ul li.current_page_parent:first-child > a, #menu ul li.current_page_item:first-child > a { border-bottom: 2px solid black; text-decoration: none; }
 #menu ul.sub-menu, #menu ul.children { margin: 0; padding: 25px; position: absolute; width: 190px; left: -25px; top: 40px; background: #151515; border-radius: 5px; text-align: left;
 /*hidden dropdown*/	display: none; opacity: 0; -webkit-transform: translateY(-20px); -ms-transform: translateY(-20px);  transform: translateY(-20px); 
@@ -495,14 +494,14 @@ animation: revealTB 1s ease-in-out forwards;  }
 
 /* 8. FOOTER
 _____________________________________ */
-#footer { clear: both; padding: 90px 0 60px; position: relative; color: #a3a3a3; font-size: 90%; }
+#footer { clear: both; padding: 30px 0 30px; position: relative; color: white; font-size: 90%; background-color: #0070cd; }
 #footer::after { content: ""; background: white; position: absolute; width: 4999px; left: -999px; top: 0; bottom: 0; z-index: -1; }
-#footer h3 { color: black; text-transform: uppercase; font-size: 1.2em; margin-bottom: 32px; }
+#footer h3 { color: white; text-transform: capitalize; font-size: 1.2em; margin-bottom: 0px; }
 #footer p { padding: 0 0 10px; }
 #footer ul { padding: 0; list-style: none; }
-#footer p a, #footer li a { background-image: none; text-decoration: underline; }
+#footer p a, #footer li a { background-image: none; text-decoration: none; }
 #footer .bottom { text-align: center; clear: both; }
-#footer .bottom p:first-child { color: black; text-transform: uppercase; font-weight: 700; }
+#footer .bottom p:first-child { color: white; text-transform: uppercase; font-weight: 700; }
 #footer .bottom p:last-child { font-size: 10pt; }
 ul.social-icons { float: left; padding: 0; list-style: none; }
 ul.social-icons li { padding: 0 0 16px; }
@@ -524,6 +523,27 @@ ul.social-icons li.skype a { background-color: #31C5EB; }
 #footer .widget:nth-child(3n) { width: 20%; padding: 0; }
 #footer .widget p, #footer .widget li { line-height: 2.2; }
 #footer .textwidget img.alignright { margin: -24px -32px 0 0; }
+
+#footer li a:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  border-bottom: 2px solid #3366FF;
+  transition: 0.4s;
+}
+
+#footer li a:hover:after {
+  width: 100%;
+}
+
+/* Edited by Ehab M. Ashraf */
+#wide-div 
+{
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+}
 
 /* 9. RESPONSIVNESS
 _____________________________________ */
