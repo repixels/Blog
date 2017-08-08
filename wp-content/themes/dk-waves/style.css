@@ -528,6 +528,10 @@ ul.social-icons li.skype a { background-color: #31C5EB; }
 {
 	color: white !important;
 	opacity: 1.0 !important;
+	text-decoration: none; 
+	text-transform: capitalize; 
+	background: none;
+	position: relative;
 }
 
 #footer ul li a:after {
