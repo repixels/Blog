@@ -542,7 +542,7 @@ ul.social-icons li.skype a { background-color: #31C5EB; }
 .wide-div
 {
   width: 100vw;
-  margin-left: calc(-50vw + 50%);
+  margin-left: calc(-50vw + 50%) !important;
 }
 
 /* 9. RESPONSIVNESS
