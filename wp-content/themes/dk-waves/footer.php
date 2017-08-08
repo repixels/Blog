@@ -6,7 +6,7 @@
 	<!-- ====================
 	       FOOTER 
 	==================== -->
-	<footer id="footer">
+	<footer id="footer" class="wide-div">
 		<ul class="social-icons">
 			<?php get_template_part('social_icons-list'); ?>
 		</ul>
