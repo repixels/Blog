@@ -499,7 +499,7 @@ _____________________________________ */
 #footer h3 { color: white; text-transform: capitalize; font-size: 1.2em; margin-bottom: 32px; }
 #footer p { padding: 0 0 10px; }
 #footer ul { padding: 0; list-style: none; }
-#footer p a, #footer li a { background-image: none; text-decoration: none; }
+#footer p a{ background-image: none; text-decoration: none; }
 #footer .bottom { text-align: center; clear: both; }
 #footer .bottom p:first-child { color: white; text-transform: uppercase; font-weight: 700; }
 #footer .bottom p:last-child { font-size: 10pt; }
@@ -524,14 +524,18 @@ ul.social-icons li.skype a { background-color: #31C5EB; }
 #footer .widget p, #footer .widget li { line-height: 2.2; }
 #footer .textwidget img.alignright { margin: -24px -32px 0 0; }
 
-#footer ul li a:hover
+#footer ul li a
 {
-	color: white !important;
-	opacity: 1.0 !important;
 	text-decoration: none; 
 	text-transform: capitalize; 
 	background: none;
 	position: relative;
+}
+
+#footer ul li a:hover
+{
+	color: white !important;
+	opacity: 1.0 !important;
 }
 
 #footer ul li a:after {
