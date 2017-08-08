@@ -494,7 +494,7 @@ animation: revealTB 1s ease-in-out forwards;  }
 
 /* 8. FOOTER
 _____________________________________ */
-#footer { clear: both; padding: 30px 0 30px; position: relative; color: white; font-size: 90%; background-color: #0070cd; }
+#footer { clear: both; padding: 40px 0 30px; position: relative; color: white; font-size: 90%; background-color: #0070cd; }
 #footer::after { content: ""; background: white; position: absolute; width: 4999px; left: -999px; top: 0; bottom: 0; z-index: -1; }
 #footer h3 { color: white; text-transform: capitalize; font-size: 1.2em; margin-bottom: 15px; }
 #footer p { padding: 0 0 10px; }
