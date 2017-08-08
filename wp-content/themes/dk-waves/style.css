@@ -539,7 +539,7 @@ ul.social-icons li.skype a { background-color: #31C5EB; }
 }
 
 /* Edited by Ehab M. Ashraf */
-#wide-div 
+.wide-div
 {
   width: 100vw;
   margin-left: calc(-50vw + 50%);
