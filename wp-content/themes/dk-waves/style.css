@@ -517,7 +517,7 @@ ul.social-icons li.dribbble a { background-color: #EA4685; }
 ul.social-icons li.flickr a { background-color: #1D75CE; }
 ul.social-icons li.tumblr a { background-color: #304E6A; }
 ul.social-icons li.skype a { background-color: #31C5EB; }
-#footer .widgets { width: calc(100% - 32px); float: right; padding: 0 0 40px; }
+#footer .widgets { max-width: 1072px !important; margin: 0 auto; width: 100%; margin: 0 auto; padding: 0 16px;}
 #footer .widgets::after { clear: both; content: ''; display: block; }
 #footer .widget { float: left; width: 40%; padding: 0 80px 0 0; }
 #footer .widget:nth-child(3n) { width: 20%; padding: 0; }
