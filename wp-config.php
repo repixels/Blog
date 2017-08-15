@@ -26,7 +26,7 @@ define('DB_NAME', 'VZEngineeringBlog');
 define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', '');
+define('DB_PASSWORD', 'Rkm3r8ctTdWJ4M8u');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost:3306');
