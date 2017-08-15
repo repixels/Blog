@@ -2087,6 +2087,9 @@ _____________________________________ */
     width: 80% !important;
     padding: 0 0 3em;
   }
+  #more-excerpts {
+    margin: 7em 0 0;
+  }
 }
 
 @media screen and (max-width: 680px) {
@@ -2094,6 +2097,47 @@ _____________________________________ */
     font-size: .8rem;
   }
 
+  /* everything in one column */
+  .excerpts,
+  .excerpt,
+  .featured-image-excerpt {
+    width: 100% !important;
+    margin-right: 0 !important;
+    padding-right: 0 !important;
+    height: auto !important;
+  }
+  .entry-header {
+    width: 100% !important;
+  }
+  #sidebar {
+    display: none !important;
+  }
+  ol.comment-list ol {
+    padding-left: 0;
+  }
+
+  /* small adjustments */
+  .featured-image iframe {
+    display: none;
+  }
+  body.layout-grid-2 .featured-image-excerpt img,
+  body.layout-grid-3 .featured-image-excerpt img,
+  body.layout-list-2 .featured-image-excerpt img {
+    width: 100%;
+    height: auto;
+  }
+  body.layout-grid-2 .excerpt:first-child .entry-header {
+    padding-left: 0;
+  }
+  #load-more {
+    width: auto !important;
+  }
+  #footer {
+    font-size: 100%;
+  }
+}
+
+@media screen and (max-width: 1023px) {
   /* menu overflow */
   #menu ul li:last-child ul.sub-menu,
   #menu ul li:last-child ul.children {
@@ -2134,45 +2178,6 @@ _____________________________________ */
   #extras {
     /* position: absolute; top: 24px; zoom: 80%; */
     display: none;
-  }
-
-  /* everything in one column */
-  .excerpts,
-  .excerpt,
-  .featured-image-excerpt {
-    width: 100% !important;
-    margin-right: 0 !important;
-    padding-right: 0 !important;
-    height: auto !important;
-  }
-  .entry-header {
-    width: 100% !important;
-  }
-  #sidebar {
-    display: none !important;
-  }
-  ol.comment-list ol {
-    padding-left: 0;
-  }
-
-  /* small adjustments */
-  .featured-image iframe {
-    display: none;
-  }
-  body.layout-grid-2 .featured-image-excerpt img,
-  body.layout-grid-3 .featured-image-excerpt img,
-  body.layout-list-2 .featured-image-excerpt img {
-    width: 100%;
-    height: auto;
-  }
-  body.layout-grid-2 .excerpt:first-child .entry-header {
-    padding-left: 0;
-  }
-  #load-more {
-    width: auto !important;
-  }
-  #footer {
-    font-size: 100%;
   }
 }
 
