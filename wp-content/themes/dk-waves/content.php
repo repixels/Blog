@@ -1,29 +1,7 @@
 <?php if ( is_single() ) : // BLOG POST  ?>
 	<article <?php hybrid_attr( 'post' ); ?>>
 
-		<div class="entry-header">
-			<div class="entry-author">
-				<a href="<?php echo esc_url(get_author_posts_url(get_the_author_meta( 'ID' ))); ?>"><?php echo get_avatar( get_the_author_meta( 'ID' ), 112); ?></a>
-			</div>
-			
-			<div class="entry-meta">
-				<?php if ( has_category() ): ?>
-				<strong><?php the_category(' '); ?></strong> &nbsp; • &nbsp;
-				<?php endif; ?>
-				<span class="entry-date"><?php the_time(get_option( 'date_format' )) ?></span> 
-				<a href="<?php the_permalink(); ?>" class="entry-read-time"><span>&nbsp; • &nbsp;</span>
-					<?php echo waves_estimated_reading_time() . ' ' . esc_html('read', 'dk_waves'); ?>
-				</a>
-			</div>
-						
-			<!-- Heading ___-->
-			<h2><?php the_title(); ?></h2>
-			
-			<!-- Excerpt ___-->
-			<div class="entry-excerpt">
-				<?php the_excerpt(); ?>
-			</div>
-			
+		<div class="entry-header">			
 			<!-- Image ___-->
 			<div class="featured-image">
 			<?php if ( has_post_thumbnail() ) : ?>
@@ -33,6 +11,24 @@
 				<iframe src="https://player.vimeo.com/video/<?php echo intval(basename($video_link)); ?>?autoplay=1&loop=1&title=0&byline=0&portrait=0" width="1040" height="585" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 				<?php endif; ?>
 			<?php endif; ?>
+			</div>
+
+			<!-- Heading ___-->
+			<h2><?php the_title(); ?></h2>
+			
+			<!-- Excerpt ___-->
+			<div class="entry-excerpt">
+				<?php the_excerpt(); ?>
+			</div>
+
+			<div class="entry-meta">
+				<?php if ( has_category() ): ?>
+				<strong><?php the_category(' '); ?></strong> &nbsp; • &nbsp;
+				<?php endif; ?>
+				<span class="entry-date"><?php the_time(get_option( 'date_format' )) ?></span> 
+				<a href="<?php the_permalink(); ?>" class="entry-read-time"><span>&nbsp; • &nbsp;</span>
+					<?php echo waves_estimated_reading_time() . ' ' . esc_html('read', 'dk_waves'); ?>
+				</a>
 			</div>
 		</div>
 		
