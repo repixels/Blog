@@ -2347,6 +2347,30 @@ blockquote::before {
   background: #0070cd;
 }
 
+.entry-details-home {
+  display: flex;
+  align-items: center;
+  flex: 1 auto;
+}
+
+.entry-details-home .entry-author {
+  margin-right: 10px;
+}
+
+.entry-details-home .entry-author img {
+  margin: 0;
+}
+
+.entry-details-home .entry-author {
+  max-width: 50px;
+}
+
+.entry-details-home .entry-author img {
+  margin-bottom: 0;
+  height: 100%;
+  width: 100%;
+}
+
 @media screen and (max-width: 760px) {
   article .entry-meta,
   .entry-content,
@@ -2368,7 +2392,7 @@ blockquote::before {
     height: 100%;
     width: 100%;
   }
-  
+
   .entry-social {
     display: none;
   }
