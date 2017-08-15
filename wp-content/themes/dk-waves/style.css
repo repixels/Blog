@@ -693,6 +693,10 @@ article h2 {
 
 article .featured-image {
 	margin-top: 0px;
+	margin-bottom: 25px;
+}
+
+article .featured-image img {
   width: 100%;
   height: 340px;
   object-fit: cover;
@@ -715,4 +719,25 @@ article .entry-meta {
 	text-align: left;
 	padding: 0 184px !important;
 	margin-bottom: 25px !important;
+	display: flex;
+}
+
+.entry-social {
+	padding: 0;
+	width: 100px;
+}
+
+.entry-social > div:nth-child(1),
+.entry-social > div:nth-child(2) {
+	float: none;
+	clear: both;
+	padding: 10px 10px;
+}
+
+.entry-social > div:nth-child(1) {
+	border: none;
+}
+
+.entry-social > div:nth-child(3) {
+	padding: 10px 0 30px;
 }
